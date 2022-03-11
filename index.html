@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StyleSideBar.css">
+    <title>Menu</title>
+</head>
+<body>
+     <div class="sidebar">
+         <div class="logo_content">
+             <div class="logo">
+                 <div class="logo_name">PickePlants</div>
+             </div>
+             <button id="btnHide">-></button>
+         </div>
+         <ul class="nav_list">
+             <li>
+                <a href="#">
+                    
+                    <input type="text" placeholder="Search...">
+                    <button id="btnSearch">PS</button>
+                </a>
+                <span class="tooltip">Search</span>
+             </li>
+             <li>
+                <a href="#">
+                    <span class="links_name">Home</span>
+                </a>
+                <span class="tooltip">Home</span>
+             </li>
+             <li>
+                <a href="https://picke21.github.io/PickePlants-The-Most-Poisonous-Plants-in-the-World-/">
+                    <span class="links_name">Poisons</span>
+                </a>
+                <span class="tooltip">Poisons</span>
+             </li>
+             <li>
+                <a href="https://nurserylive.com/blogs/sustainable-living/32-medicinal-plants-to-keep-at-your-home-always">
+                    <span class="links_name">Medicinal Plants</span>
+                </a>
+                <span class="tooltip">Medicinal Plants</span>
+             </li>
+             <li>
+                <a href="https://youtu.be/mCdA4bJAGGk">
+                    <span class="links_name">About Me</span>
+                </a>
+                <span class="tooltip">About Me</span>
+             </li>
+         </ul>
+         <div class="profile_content">
+             <div class="profile">
+                 <div class="profile_details">
+                     <img src="Images/me.jpg" alt=""> 
+                 </div>
+             </div>
+         </div>
+     </div>
+     <div class="home_content">
+       <!DOCTYPE HTML>
+<html>
+<head>
+  <style>
+    body {
+      background-image: url(https://wallpapercave.com/wp/wp3728849.jpg);
+    }
+  </style>
+<title>Picke Plants</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+</nav>
+<p align="center"><font size="+7">Picke Plants</p>
+<p align="center"><font size="+2">Hi!!Welcome to Picke Plants.Here you will find Poisonous Plants and Healing Plants.PLEASE CLICK ONE OF THE OPTIONS IN THE LEFT</p>
+<body>
+</html>
+         
+     </div>
+     <script>
+         let btn=document.querySelector("#btnHide");
+         let sidebar=document.querySelector(".sidebar");
+         let searchBtn=document.querySelector("#btnSearch");
+         btn.onclick=function() {
+             sidebar.classList.toggle("active");
+             btn.textContent="<-";
+         }  
+         searchBtn.onclick=function() {
+             sidebar.classList.toggle("active");
+         }        
+     </script>
+</body>
+</html>
